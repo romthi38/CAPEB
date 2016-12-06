@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CAPEB</title>
+        <meta property="og:title" content="Téléchargez l'application mobile de la Capeb" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="dist/img/logo_capeb.png" />
+        <meta property="og:url" content="" /> <!-- content à remplir dès que vous téléchargez le dépôt Git -->
+        <meta property="og:description" content="Site de l'application CAPEB 71" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta name="apple-itunes-app" content="app-id=971652081">
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="dist/script.min.js"></script>
+        <link rel="stylesheet" href="dist/default.css" id="stylesheet">
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div id="contenu">
+                    <div class="contenuCentral col-md-6">
+                        <img src="src/img/logo_capeb.png" alt="logo de capeb" id="logo">
+                        <p>Pour votre iPhone ou Android, la CAPEB est plus proche de vous à présent : actualités, formations, boîtes à outils, notifications, etc.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.websenso.capeb71">
+                            <img src="dist/img/badge_android.png" alt="play store">
+                        </a>
+                        <a href="https://itunes.apple.com/fr/app/capeb-71/id971652081?mt=8">
+                            <img src="dist/img/badge_apple.png" alt="apple store">
+                        </a>
+                    </div>
+                    <div class="contenuCentral col-md-6">
+                        <img src="dist/img/capeb_app_screen.png" alt="aperçu de l'application" class="blocDroite">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="piedPage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1">
+                        <p>Besoin d'un présentation rapide par email ? Avec plaisir, saisissez votre email et vous recevrez immédiatement un très joli email.</p>
+                        <form action="#">
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email" required>
+                                <input class="btn btn-default" type="submit" value="Recevoir la présentation">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <ul class="bottom-ul">
+                        <li><a href=""><span class="icons social-icon-facebook"></span></a></li>
+                        <li><a href=""><span class="icons social-icon-twitter"></span></a></li>
+                        <li><a href=""><span class="icons social-icon-mail"></span></a></li>
+                        <li><a href=""><span class="icons social-icon-rss"></span></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="copyright">MIW © 2016-2017</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="colorPicker">
+            <div id="default" class="couleur"></div>
+            <div id="rose" class="couleur"></div>
+            <div id="vert" class="couleur"></div>
+            <div id="jaune" class="couleur"></div>
+        </div>
+    </body>
+</html>
